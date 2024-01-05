@@ -1,21 +1,61 @@
+# Daily App React Project
 
-tables:
+This is a React project bootstrapped with [Vite](https://vitejs.dev/) that implements a simple daily standup managment app.
 
-1. id, name, role /image url/
+## Prerequisites
 
-2. linked tables: tasks, 
-name, start date, description, percentage done, foreign key for id, 
+- Node.js installed on your machine
 
+## Getting Started
 
-node, typescript ,typeOrm - с миграция;
+1. Clone the repository:
 
-strucure - cotrollers, endpoints
+   ```bash
+   git clone https://github.com/yourusername/your-react-project.git
+   ```
 
-endpoints: all users, per user -> tasks, 
+2. Navigate to the project directory:
 
-FE:
+   ```bash
+   cd your-react-project
+   ```
 
-от ляво хората подредени един под друг / почти 100 височина и шеирочина 40 по 40 кръгла/. 
-отдясно се появяват задачите на човека, който е избран.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-отдясно също и таймера
+## Backend Setup
+
+This project requires a backend service to be running. The backend service can be set up using Docker Compose.
+
+1. Clone the backend repository:
+
+   ```bash
+   git clone https://github.com/vassilYanakiev/backend-daily-app.git
+   ```
+
+2. Navigate to the backend project directory:
+
+   ```bash
+   cd backend-daily-app
+   ```
+
+3. Run Docker Compose:
+   ```bash
+   docker-compose up -d
+   ```
+
+This command starts the backend service in the background.
+
+Please ensure Docker is installed and running on your machine before executing these steps.
+
+## Running the Project
+
+Start the development server:
+
+```bash
+npm run dev
+
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+```
